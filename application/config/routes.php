@@ -56,7 +56,10 @@ $route['translate_uri_dashes'] = FALSE;
 
 //Front-end
 $route['misterpizzaria']                                                	="Principais/Principais/index";
+
+
 $route['cardapio']								="Cardapios/Cardapios/index";
+$route['cardapio/lista']								="Cardapios/Cardapios/lista";
 $route['pedido']								="Pedidos/Pedidos/index";
 
 //Back-endd

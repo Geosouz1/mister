@@ -8,12 +8,10 @@ class Cardapio extends CI_Model {
     public $primary_key = '';
 
     function tipoProduto() {
-         $query = $this->db->get('tipo_produto');
-        foreach ($query->result_array() as $row) {
-            echo $row['id_tipo_produto'];
-            echo $row['nome'];
-            
-        }
+        $query = $this->db->get('tipo_produto')->result();
+       
+        
+        return $query;
     }
 
     function produto() {
