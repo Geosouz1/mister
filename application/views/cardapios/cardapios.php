@@ -6,7 +6,7 @@
             <img class="img-thumbnail" src="/assets/img/logo.png">
             <? foreach($tipoProdutos as $value){ ?>
          
-            <a href="#" class="list-group-item active" style="background-color: red"><?=$value->nome ?></a>
+            <a href="#" class="list-group-item " style="background-color: #800000; color: white"><?=$value->nome ?></a>
             <? } ?>
           </div>
              <br>
